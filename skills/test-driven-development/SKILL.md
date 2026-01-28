@@ -1,6 +1,6 @@
 ---
 name: test-driven-development
-description: Use when implementing any feature or bugfix, before writing implementation code
+description: Use when implementing features or bugfixes with complex logic - not required for simple UI, configuration, or documentation
 ---
 
 # Test-Driven Development (TDD)
@@ -15,18 +15,20 @@ Write the test first. Watch it fail. Write minimal code to pass.
 
 ## When to Use
 
-**Always:**
-- New features
-- Bug fixes
-- Refactoring
-- Behavior changes
+**Use TDD for:**
+- Complex business logic
+- Bug fixes (to prevent regression)
+- Refactoring with behavior changes
+- Behavior that's hard to verify manually
 
-**Exceptions (ask your human partner):**
+**Skip TDD for:**
+- Simple UI changes
+- Configuration files
+- Documentation
 - Throwaway prototypes
 - Generated code
-- Configuration files
 
-Thinking "skip TDD just this once"? Stop. That's rationalization.
+Thinking "skip TDD just this once" for complex logic? Stop. That's rationalization.
 
 ## The Iron Law
 

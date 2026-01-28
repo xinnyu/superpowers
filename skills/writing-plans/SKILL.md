@@ -1,6 +1,6 @@
 ---
 name: writing-plans
-description: Use when you have a spec or requirements for a multi-step task, before touching code
+description: Use when you have a spec or requirements for multi-step complex tasks - not needed for simple single-file changes or straightforward fixes
 ---
 
 # Writing Plans
@@ -13,7 +13,7 @@ Assume they are a skilled developer, but know almost nothing about our toolset o
 
 **Announce at start:** "I'm using the writing-plans skill to create the implementation plan."
 
-**Context:** This should be run in a dedicated worktree (created by brainstorming skill).
+**Context:** This is typically run in a dedicated worktree (created by brainstorming skill if needed).
 
 **Save plans to:** `docs/plans/YYYY-MM-DD-<feature-name>.md`
 
